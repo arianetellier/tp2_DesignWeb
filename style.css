@@ -1,0 +1,282 @@
+body{
+	background-color: #EEE;
+	margin: 0;
+	color: #730000;
+	font-family: "Apple Chancery";
+	font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: SignPainter;
+	text-transform: uppercase;
+}
+h1{
+	font-size: 65px;
+}
+h2 {
+	font-size: 34px;
+}
+
+header{
+	background-color: #CCAD55;
+	width: 700px;
+	height: 150px;
+	min-width: 700px;
+    left:0;
+    right:0;
+    margin:0 auto;
+
+}
+a.logo {
+  position: relative;
+  display: inline-block;
+  display: inline-block;
+	margin: auto;
+	width: 25%;
+	height: 100%;
+}
+a.logo:after {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
+}
+.logo object{
+	height: 100%;
+}
+#index{
+	display: inline-block;
+	width: 70%;
+	height: 100%;
+	vertical-align: top;
+}
+#index h1 {
+	height: 40px;
+	margin: 20px auto 0 auto;
+}
+#index nav {
+	display: block;
+	margin: 40px auto 0 auto;
+	width: 90%;
+}
+#index ul{
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	margin: 0;
+}
+#index ul li{
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 0;
+	width: 30%;
+}
+#index a{
+	text-align: center;
+	text-decoration: none;
+	height: 18px;
+}
+#index ul li a{
+	display: block;
+	color: inherit;
+	padding: 16px 0 16px 0;
+	background-color: orange;
+	margin-bottom: 0;
+}
+#index ul li a:hover{
+	background-color: #F90;
+}
+#index ul li a.selected{
+	border-top: solid red 5px;
+	padding-top: 11px;
+}
+
+main {
+	background-color: #CCC;
+	width: 70%;
+	margin: 0 auto;
+	min-width: 700px;
+	padding: 10px;
+}
+
+
+
+table {
+	margin: 0 auto;
+	border-spacing: 6px;
+	width: 95%;
+	max-width: 95%;
+	/*border: solid thin #730000;*/
+}
+th {
+	background-color: #FFBD20;
+	height: 40px;
+}
+th>h2 {
+	margin: 5px;
+}
+table#promo td {
+	width: 30%;
+}
+table#promo td>img {
+	width: 95%;
+	margin: auto auto;
+}
+
+.article {
+	margin: 5px auto;
+	width: 95%;
+	padding: 5px;
+	border-top-style: solid;
+	border-top-width: thin;
+	border-right-style: solid;
+	border-right-width: medium;
+	border-color: #730000;
+}
+
+.article > p {
+    text-indent: 50px;
+	margin: 0 0 0 65px;
+}
+.article h2 {
+	margin-bottom: 10px;
+}
+
+
+.courriel{
+    padding-top:25px;
+}
+#infolettre {
+        font-size:0.85em;
+        line-height:125%;
+        font-family:SignPainter
+}
+
+form input {
+    margin-top:5px;
+}
+
+
+
+.mail {
+    width:60px;
+    margin-top:20px;
+    padding-left:85px;
+    padding-right:10px;
+    padding-bottom:10px;
+    float:left;
+}
+
+.numtel {
+    font-family:SignPainter;
+    float: right;
+    color:white;
+}
+
+
+/*Style Footer*/
+
+footer {
+	background-color:#262626;
+	margin: 0;
+	width: 100%;
+	height: 100px;
+	color: #555;
+	min-width: 700px;
+	font-family: "Times New Roman";
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+footer a {
+	text-decoration: none;
+	color: inherit;
+}
+footer div {
+	display: inline-block;
+}
+footer nav {
+	float: left;
+	display: inline-block;
+	width: 200px;
+	margin-left:10px;
+	height: 80px;
+}
+footer ul {
+	list-style-type: none;
+	padding: 0;
+}
+footer #info {
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 20px;
+}
+footer #social {
+	float: right;
+	width: 200px;
+	margin-right: 10px;
+	height: 80px;
+}
+
+footer #social img{ 
+    padding:5px;
+    width: 35px;
+    float:right;
+}
+
+
+
+
+/*Style Menu*/
+
+
+.menu_nav {
+    font-size:1.5em;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    width:15%;
+    position:fixed;
+    height:100%;
+}
+
+.menu_nav > li a {
+    display:block;
+    padding:1.5px;
+}
+
+#menu {
+    margin-left:25%;
+}
+
+.menu_nav > li a:link {color:black; background-color:#CCC; text-decoration:none;}
+.menu_nav > li a:visited{color:black; background-color:#CCC; text-decoration:none;}
+.menu_nav > li a:hover{color:black; background-color:orange; text-decoration:none;}
+.menu_nav > li a:active{color:black; background-color:orange; text-decoration:none;}
+
+.img_menu {
+    width:250px;
+    background-color:white;
+}
+
+#menutitle{
+    font-size:2em;
+    font-family:SignPainter;
+    font-weight:bold;
+}
+
+/*Style Localiser*/
+
+
+#grossesroches {
+        font-family:SignPainter;
+}
+
+#map {
+    height:325px
+}
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title> Coq Coq Cadet </title>
+		<link href="../style.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<header id="head">
+			<a id="logo" href="index.xhtml" class="logo">
+				<object type="image/svg+xml" data="../img/col_poulet.svg"></object>
+			</a>
+			<div id="index">
+				<h1 id="nom"> Coq Coq Cadet </h1>
+				<nav>
+					<ul>
+						<li><a href="menu.xhtml#main">Menu</a></li>
+						<li><a href="localiser.xhtml#main" class="selected">Localiser</a></li>
+						<li><a href="commander.xhtml#main">Commander</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main id="main">
+			<div id="gmap">
+				<h2>Notre restaurant</h2>
+				<p id="grossesroches">13 Route des Grosses Roches<br/>Grosses-Roches, QC <br/> G0J 1K0</p>
+				
+				<div id="map"></div>
+	
+				<script>
+		            function myMap() {
+		              var mapCanvas = document.getElementById("map");
+		              var mapOptions = {
+		                center: new google.maps.LatLng(48.937390, -67.166275),
+		                zoom: 15
+		              }
+		              var map = new google.maps.Map(mapCanvas, mapOptions);
+		            }
+	         	</script>
+				
+				<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+			</div>
+			<div id="detour">
+				<p>Venez rendre visite au colonel Chicken à Grosses-Roches.<br /> Ça vaut le détour !</p>
+			</div>
+		</main>
+		<footer id="foot">
+			<nav>
+				<ul>
+					<li><a href="analyse.xhtml#main">Analyse</a></li>
+					<li><a href="design.xhtml#main">Design</a></li>
+				</ul>
+			</nav>
+			<div id="social">
+				<a href="https://www.instagram.com/coqcoqcadet/?hl=en"><img src="../img/Instagram.png" alt="insta" /></a>
+				<a href="https://twitter.com/coqcoqcadet"><img src="../img/twitter-128.png" alt="twitter" /></a>
+			</div>
+			<div id="info">
+				Réalisé par Ariane Tellier et Léo Jetzer
+			</div>
+		</footer>
+	</body>
+</html>

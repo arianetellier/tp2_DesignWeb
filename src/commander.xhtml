@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title> Coq Coq Cadet </title>
+		<link href="../style.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<header id="head">
+			<a id="logo" href="index.xhtml" class="logo">
+				<object type="image/svg+xml" data="../img/col_poulet.svg"></object>
+			</a>
+			<div id="index">
+				<h1 id="nom"> Coq Coq Cadet </h1>
+				<nav>
+					<ul>
+						<li><a href="menu.xhtml#main">Menu</a></li>
+						<li><a href="localiser.xhtml#main">Localiser</a></li>
+						<li><a href="commander.xhtml#main" class="selected">Commander</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main id="main">
+			<h1>Commander en ligne</h1>
+			<h3>Le meilleur poulet de Grosses-Roches</h3>
+			<form action="http://www.iro.umontreal.ca/~lapalme/ift1005/Exercices/9/echoValeurs.cgi">
+				<fieldset>
+					<legend>Nom et adresse courriel</legend>
+					Nom
+					<input type="text" name="Nom" required="required"/> <br/>
+					Prénom
+					<input type="text" name="Prénom" required="required"/> <br />
+					Courriel
+					<input type="email" name="Courriel" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"/>
+				</fieldset>
+				<fieldset>
+					<legend>Adresse de livraison</legend>
+					Numéro civique
+					<input type="number" min="1" name="Adresse" required="required"/> <br />
+					Rue
+					<input type="text" name="Rue" required="required"/> <br />
+					Ville 
+					<input type="text" name="Ville" required="required"/><br />
+					Code Postal
+					<input type="text" name="Code postal" required="required" pattern="(\d{5}([\-]\d{4})?)|[A-Za-z][0-9][A-Za-z][ -]?[0-9][A-Za-z][0-9]"/>
+					Province
+					<select name="Province" required="required">
+						<option value="QC">QC</option>
+					</select>
+				</fieldset>
+				<fieldset>
+					<legend>Numéro de téléphone</legend>
+					Téléphone
+					<input type="tel" name="Numéro de téléphone" required="required"></input> <br />
+				</fieldset>
+				<button type="submit">Soumettre la commande</button>
+				
+			</form>
+		</main>
+		<footer id="foot">
+			<nav>
+				<ul>
+					<li><a href="analyse.xhtml#main">Analyse</a></li>
+					<li><a href="design.xhtml#main">Design</a></li>
+				</ul>
+			</nav>
+			<div id="social">
+				<a href="https://www.instagram.com/coqcoqcadet/?hl=en"><img src="../img/Instagram.png" alt="insta" /></a>
+				<a href="https://twitter.com/coqcoqcadet"><img src="../img/twitter-128.png" alt="twitter" /></a>
+			</div>
+			<div id="info">
+				Réalisé par Ariane Tellier et Léo Jetzer
+			</div>
+		</footer>
+	</body>
+</html>
