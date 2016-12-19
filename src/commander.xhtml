@@ -26,7 +26,7 @@
 			<h3>Le meilleur poulet de Grosses-Roches</h3>
 			<form action="http://www.iro.umontreal.ca/~lapalme/ift1005/Exercices/9/echoValeurs.cgi">
 				<fieldset>
-					<legend>Nom et adresse courriel</legend>
+					<legend class="legend">Nom et adresse courriel</legend>
 					Nom
 					<input type="text" name="Nom" required="required"/> <br/>
 					Prénom
@@ -35,7 +35,7 @@
 					<input type="email" name="Courriel" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"/>
 				</fieldset>
 				<fieldset>
-					<legend>Adresse de livraison</legend>
+					<legend class="legend">Adresse de livraison</legend>
 					Numéro civique
 					<input type="number" min="1" name="Adresse" required="required"/> <br />
 					Rue
@@ -50,9 +50,42 @@
 					</select>
 				</fieldset>
 				<fieldset>
-					<legend>Numéro de téléphone</legend>
+					<legend class="legend">Numéro de téléphone</legend>
 					Téléphone
 					<input type="tel" name="Numéro de téléphone" required="required"></input> <br />
+				</fieldset>
+				<fieldset>
+					<legend class="legend">Menu</legend>
+					<p>Entrées</p>
+					<img class="img_menu" src="../img/cheesesticks.jpeg" alt="bâtonnets de fromage" />
+					<input type="checkbox" name="Entrées" value="Bâtonnets de mozarella"/>
+					<img class="img_menu" src="../img/Onion-Rings.jpeg" alt="rondelles d'oignon" />
+					<input type="checkbox" name="Entrées" value="Rondelles d'oignons"/>
+					<p>Repas</p>
+					<img class="img_menu" src="../img/cuisse.jpg" alt="cuisse de poulet" /> 
+					<input type="checkbox" name="Repas" value="Cuisse de poulet"/>
+					<img class="img_menu" src="../img/poitrine.jpg" alt="poitrine de poulet" />
+					<input type="checkbox" name="Repas" value="Poitrine de poulet"/>
+					<img class="img_menu" src="../img/cuisse%20et%20ribs.jpg" alt="cuisse et côte levées" />
+					<input type="checkbox" name="Repas" value="Côtes levées et cuisse"/>
+					<img class="img_menu" src="../img/ailes.jpeg" alt="ailes de poulet" />
+					<input type="checkbox" name="Repas" value="Ailes de poulet"/>
+					<img class="img_menu" src="../img/deux%20cuisses.png" alt="repas deux cuisses" />
+					<input type="checkbox" name="Repas" value="Deux cuisses"/>
+					<img class="img_menu" src="../img/poulet%20pan%C3%A9.jpg" alt="poulet pané"/>
+					<input type="checkbox" name="Repas" value="Poulet pané"/>
+					<img class="img_menu" src="../img/ribs.jpg" alt="côtes levées" />
+					<input type="checkbox" name="Repas" value="Côtes levées"/>
+					<img class="img_menu" src="../img/enfants.jpg" alt="Ferme coq coq" />
+					<input type="checkbox" name="Repas" value="Ferme coq coq"/>
+					<p>Desserts</p>
+					<img class="img_menu" src="../img/tartecitron.png" alt="tarte au citron" />
+					<input type="checkbox" name="Desserts" value="Tarte au citron"/>
+					<img class="img_menu" src="../img/gateauchoco.png" alt="gateau au chocolat" />
+					<input type="checkbox" name="Desserts" value="Gateau au chocolat"/>
+					<img class="img_menu" src="../img/pouding.png" alt="pouding chômeur"/>
+					<input type="checkbox" name="Desserts" value="Pouding chômeur"/>
+					
 				</fieldset>
 				<button type="submit">Soumettre la commande</button>
 				

@@ -280,3 +280,23 @@ footer #social img{
 }
 
 
+/*Style Commander*/
+
+fieldset {
+    background-color: white;
+    color: black;
+    font-family:Arial;
+    border: solid orange;
+    position:relative;
+    margin:10px;
+    padding-top:50px;
+}
+
+.legend {
+    top:10px;
+    position:absolute;
+    font-size:20px;
+    font-weight:bold  
+}
+
+
